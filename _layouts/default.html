@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+  <title>{{ site.name }}</title>
+  <meta name="description" content="the past and the future are themselves part of the whole of time"/>
+
+  <link rel="shortcut icon" href="http://29.media.tumblr.com/avatar_9bf4ff3c7aff_16.png"/>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://aninfinitepotential.tumblr.com/rss"/>
+  <link rel="stylesheet" type="text/css" href="/css/screen.css">
+    <!--[if lte IE 6]>
+  <style type="text/css">
+    #border {display:none;}
+    body {border-left:0.5em solid #c8d85c;}
+  </style>
+  <![endif]-->
+<meta http-equiv="x-dns-prefetch-control" content="off"/></head>
+<body>
+
+{% include nav.html %}
+
+<ol id="posts">
+
+  {{ content }}
+
+</ol>
+
+<div id="footer">
+  <div id="pagination">
+    <p class="back">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/index.html" title="Previous Page">&laquo; Previous</a>
+        {% else %}
+        <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+        {% endif %}
+      {% endif %}
+    </p>
+    <p class="forward">
+      {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
+      {% endif %}
+    </p>
+  </div>
+
+ 
+</div>

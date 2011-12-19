@@ -1,0 +1,154 @@
+body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,dl,dt,dd,ul,ol,li,th,td,form,fieldset,legend,input,textarea{margin:0;padding:0;}
+html{font-size:100.01%;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal;}
+abbr,acronym{border:0;}
+
+body {background:#0e0202; color:#c8d85c; font:1em/1.5 Baskerville, 'Times New Roman', Times, serif;}
+
+h1, h3 {font-family:Baskerville, 'Times New Roman', Times, serif;}
+pre,code {font-family:'Inconsolata','Monaco','Consolas','DejaVu Sans Mono',monospace;}
+
+a:link, a:visited {color:#ffa600; text-decoration:none;}
+a:hover, a:active {color:#ffa600;}
+
+#border {background:#c8d85c; position:fixed; left:0; top:0; bottom:0; width:0.5em;
+         border-right:0.125em solid #6f1b1b;}
+
+#header {color:#c8d85c; position:absolute; top:3em; left:2em;
+         width:12em; font-variant: small-caps;}
+#header h1 {font-weight:bold; font-size:1.2em; line-height:1.25;
+            text-transform:lowercase; margin:0.625em -0.5em 0.75em 0;
+            letter-spacing:-1px; word-spacing:1px;}
+#header h1 a:link, #header h1 a:visited {color:#c8d85c; display:block;}
+#header h1 a:hover, #header h1 a:active {color:#ffa600;}
+#description {font-size:0.8em; line-height:1.875; margin-bottom:1.875em;}
+#header form {margin-bottom:1.5em;}
+#header form input {width:90%;}
+#header ul {margin:0 -0.25em 1.5em;}
+#header li {list-style:none; text-transform:lowercase;}
+#header li a {background:#0e0202; display:block; padding:0 0.25em;
+              text-decoration:none;}
+#header li a:hover {background:#6f1b1b;}
+
+#links p {text-transform:lowercase; margin:0;}
+#links ul {margin:0 0 1.5em 1.25em;}
+#links ul li {text-transform:none; font-size:0.8em; line-height:1.875;}
+#links abbr {font-size:1em;}
+
+#posts {margin:0 1.5em 0 15em; padding:4.5em 0 1.5em;}
+#posts .post {list-style:none; margin:-1px 0 0; padding-bottom:2.875em; max-width:42em;
+              clear:both; border-top:1px solid #c8d85c;}
+#posts .content {color:#c8d85c; padding-top:0.125em; margin-right:10.5em;}
+
+#footer {margin:0 1.5em 0 15em; max-width:42em; padding-top:1.5em;
+         border-top:1px solid #c8d85c;}
+#pagination p {font-size:1.25em; min-width:10em; line-height:1.2; margin:0 0 2.4em;
+               white-space:nowrap;}
+#pagination p.back {display:inline; text-align:right; float:right; margin-left:1.5em;}
+#pagination p.forward {display:inline; float:left; margin-right:1.5em;}
+#pagination a {font-style:italic;}
+#pagination .page {text-align:center; font:0.8em/1.875 Baskerville, 'Times New Roman', Times, serif;
+                   margin-bottom:1.875em; text-transform:uppercase;}
+.avatars {clear:both; color:#c8d85c;}
+.avatars span {float:left; display:inline; width:108px; line-height:36px;}
+.avatars a {float:left; display:inline; padding:0 6px 6px 0;}
+.avatars img {vertical-align:middle;}
+#colophon {clear:both; color:#c8d85c; margin:0; padding:1.5em 0;}
+#footer a:hover, #footer a:active {text-decoration:underline;}
+
+p {margin-bottom:1.5em;}
+form .submit {height:0; overflow:hidden; display:block;}
+
+.meta {float:right; clear:right; width:9.25em;}
+.meta h2 {margin-bottom:1.5em; border-top:0.125em solid #c8d85c;}
+.meta h2 a {text-decoration:none; display:block; padding:0 0.25em;}
+.meta h2 a:hover {background:#6f1b1b;}
+.meta p {color:#c8d85c; font-style:italic; margin:0 0 0 1em;
+         text-indent:-0.75em; text-transform:lowercase;}
+p.meta {color:#c8d85c; font-style:italic; margin:0;
+        width:8.25em; text-indent:-0.75em; text-transform:lowercase;}
+.meta a {font-style:normal; white-space:nowrap;}
+.meta .comments_link {color:#c8d85c; margin:0;
+                      width:8.25em; text-indent:-0.75em; text-transform:lowercase;}
+.meta .notecount, .meta .plays {font-weight:bold; font-style:normal;}
+.reblog a, .tags a {display:block; margin-left:0.75em;}
+
+h3 {font-size:1.25em; line-height:1.2; padding:0.6em 0; font-weight:bold;}
+
+.content a {border-bottom:1px solid #c8d85c;}
+.content a:hover {border-bottom-width:2px;}
+.content .photo a {border:none !important;}
+.content ul, .content ol {margin:1.5em;}
+.content ul li {list-style:square;}
+
+blockquote {margin:0 1.5em 1.5em; font-style:italic;}
+blockquote i, blockquote em, blockquote [lang="ja"] {font-style:normal;}
+pre, code {font-size:1em; line-height:1.5;}
+pre {background:#6f1b1b; margin:0 -0.75em 1.5em; padding:0.75em;
+     overflow-x:auto;}
+pre code {display:block;}
+pre i, code i {font-style:normal; color:#c8d85c;}
+
+ins {text-decoration:none; font-style:italic;}
+blockquote ins, em ins, ins em {font-style:normal;}
+
+abbr, acronym, .caps {font-size:0.9em; letter-spacing:0.1em; word-spacing:0.1em;}
+abbr, acronym {font-variant:small-caps;}
+.caps {text-transform:uppercase;}
+
+.clear {clear:both; visibility:hidden; height:0; overflow:hidden;}
+
+.text, .caption {margin-bottom:1.5em;}
+.post img, .post object, .post embed {max-width:100%;}
+
+.link-post h3 {padding:0.6em 0; margin-bottom:1.2em;}
+
+.photo-post .photo, .video-post .video {margin-bottom:1.5em;}
+
+.quote-post .quote {font-family:Baskerville, 'Times New Roman', Times, serif;}
+.quote-post .source, .cite
+  {float:right; margin:0 3em 1.5em 4.5em; text-indent:-1.5em;}
+.quote-post .source a:first-child, .cite
+  {font-variant:small-caps; letter-spacing:0.1em;}
+.short-quote .quote, .medium-quote .quote
+  {font-size:1.2em; line-height:1.25; margin:1.25em;}
+.long-quote .quote {margin:1.5em;}
+
+.audio-post .audio {height:2.25em; padding-top:2.25em;}
+.audio-post .audio_player {width:207px; margin:-13px auto 0;}
+
+.chat-post ol {list-style:none; margin:1.5em 0;}
+.chat-post li {margin-left:1.5em; text-indent:-1.5em;}
+.chat-post .label {font-weight:bold; padding-right:0.125em;}
+.chat-post .speaker {font-style:italic;}
+.chat-post .speaker2 .label, .chat-post .speaker4 .label,
+  .chat-post .speaker6 .label, .chat-post .speaker8 .label
+    {color:#c8d85c;}
+.chat-post .speaker3 .label, .chat-post .speaker4 .label,
+  .chat-post .speaker7 .label, .chat-post .speaker8 .label
+    {font-variant:small-caps; letter-spacing:0.1em;}
+.chat-post .speaker5 .label, .chat-post .speaker6 .label,
+  .chat-post .speaker7 .label, .chat-post .speaker8 .label
+    {font-family:Baskerville, 'Times New Roman', Times, serif;}
+
+#disqus_thread {clear:both; margin: 3em 0 1.5em; padding-top: 25px; border-top:1px solid #6f1b1b;}
+
+.postnotes {clear:both; margin:3em 0 1.5em; border-top:1px solid #6f1b1b;}
+.notes {color:#6f1b1b; padding-top:1.5em; margin-top:-1px;}
+.notes .action {color:#c8d85c;}
+.notes a {display:none;}
+.notes .action a, .notes blockquote a {display:inline; text-indent:0; margin:0; padding:0;}
+.notes a:link, .notes a:visited {color:#c8d85c;}
+.notes li {margin-bottom:1.5em;}
+.notes .avatar, .notes .clear {display:none;}
+.notes blockquote {line-height:1.875; font-size:0.8em; margin:0 0 0 1.875em;}
+.notes blockquote a {border-width:0 !important;}
+
+.day .month {font-variant:small-caps;}
+
+
+.content.text-post img {max-width:100%;}
+

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<li class="post">
+  <div class="meta">
+    <h2>
+      <a title="Link to this post" id="{{ id }}"
+        href="{{ page.url }}">{{ page.date | date_to_string }}</a><br/>
+        {{ page.categories }}
+    </h2>
+  </div>
+  <div class="content text-post">
+    <h3>{{ page.title }}</h3>
+    <div class="text">
+      {{ content }}
+      </div>
+  </div>
+  <div class="clear">&nbsp;</div>
+</li>
+
