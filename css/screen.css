@@ -12,7 +12,7 @@ h1, h3 {font-family:Baskerville, 'Times New Roman', Times, serif;}
 pre,code {font-family:'Inconsolata','Monaco','Consolas','DejaVu Sans Mono',monospace;}
 
 a:link, a:visited {color:#ffa600; text-decoration:none;}
-a:hover, a:active {color:#ffa600;}
+a:hover, a:active {color:#ffa600; background:#6f1b1b;}
 
 #border {background:#c8d85c; position:fixed; left:0; top:0; bottom:0; width:0.5em;
          border-right:0.125em solid #6f1b1b;}
@@ -22,16 +22,16 @@ a:hover, a:active {color:#ffa600;}
 #header h1 {font-weight:bold; font-size:1.2em; line-height:1.25;
             text-transform:lowercase; margin:0.625em -0.5em 0.75em 0;
             letter-spacing:-1px; word-spacing:1px;}
-#header h1 a:link, #header h1 a:visited {color:#c8d85c; display:block;}
-#header h1 a:hover, #header h1 a:active {color:#ffa600;}
+/* #header h1 a:link, #header h1 a:visited {color:#c8d85c; display:block;}
+#header h1 a:hover, #header h1 a:active {color:#ffa600;} */
 #description {font-size:0.8em; line-height:1.875; margin-bottom:1.875em;}
 #header form {margin-bottom:1.5em;}
 #header form input {width:90%;}
 #header ul {margin:0 -0.25em 1.5em;}
 #header li {list-style:none; text-transform:lowercase;}
-#header li a {background:#0e0202; display:block; padding:0 0.25em;
+#header li a, #header h1 a {background:#0e0202; display:block; padding:0 0.25em;
               text-decoration:none;}
-#header li a:hover {background:#6f1b1b;}
+#header li a:hover, #header h1 a:hover {background:#6f1b1b;}
 
 #links p {text-transform:lowercase; margin:0;}
 #links ul {margin:0 0 1.5em 1.25em;}
@@ -65,7 +65,6 @@ form .submit {height:0; overflow:hidden; display:block;}
 .meta {float:right; clear:right; width:9.25em;}
 .meta h2 {margin-bottom:1.5em; border-top:0.125em solid #c8d85c;}
 .meta h2 a {text-decoration:none; display:block; padding:0 0.25em;}
-.meta h2 a:hover {background:#6f1b1b;}
 .meta p {color:#c8d85c; font-style:italic; margin:0 0 0 1em;
          text-indent:-0.75em; text-transform:lowercase;}
 p.meta {color:#c8d85c; font-style:italic; margin:0;
@@ -76,7 +75,7 @@ p.meta {color:#c8d85c; font-style:italic; margin:0;
 .meta .notecount, .meta .plays {font-weight:bold; font-style:normal;}
 .reblog a, .tags a {display:block; margin-left:0.75em;}
 
-h3 {font-size:1.25em; line-height:1.2; padding:0.6em 0; font-weight:bold;}
+h3 {font-size:1.25em; line-height:1.2; padding:0.6em 0;}
 
 .content a {border-bottom:1px solid #c8d85c;}
 .content a:hover {border-bottom-width:2px;}
