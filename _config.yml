@@ -2,3 +2,4 @@ pygments: true
 permalink: /:year/:month/:day/:title
 paginate: 10
 name: an infinite p∞tential
+url: http://ip.forens.es
