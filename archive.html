@@ -1,0 +1,18 @@
+---
+layout: default
+title: All Posts
+---
+
+<ol id="posts">
+  <h3>{{ page.title }}</h3>
+<li class="post">
+  <div class="content">
+    {% for post in site.posts %}
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
+    </h2>
+    {% endfor %}
+  </div>
+  <div class="clear">&nbsp;</div>
+</li>
+</ol>

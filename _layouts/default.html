@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 
-  <title>{{ site.name }}</title>
+  <title>{{ site.name }} | {{ page.title }}</title>
   <meta name="description" content="the past and the future are themselves part of the whole of time"/>
 
-  <link rel="shortcut icon" href="http://29.media.tumblr.com/avatar_9bf4ff3c7aff_16.png"/>
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://aninfinitepotential.tumblr.com/rss"/>
+  <link rel="shortcut icon" href="/images/inf.png"/>
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml"/>
   <link rel="stylesheet" type="text/css" href="/css/screen.css">
     <!--[if lte IE 6]>
   <style type="text/css">
@@ -20,15 +20,11 @@
 
 {% include nav.html %}
 
-<ol id="posts">
-
-  {{ content }}
-
-</ol>
+{{ content }}
 
 <div id="footer">
   <div id="pagination">
-    <p class="back">
+    <p class="forward">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
         <a href="/index.html" title="Previous Page">&laquo; Previous</a>
@@ -37,7 +33,7 @@
         {% endif %}
       {% endif %}
     </p>
-    <p class="forward">
+    <p class="back">
       {% if paginator.next_page %}
       <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
       {% endif %}
