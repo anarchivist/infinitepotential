@@ -38,7 +38,7 @@ a:hover, a:active {color:#ffa600; background:#6f1b1b;}
 #links ul li {text-transform:none; font-size:0.8em; line-height:1.875;}
 #links abbr {font-size:1em;}
 
-#posts {margin:0 1.5em 0 15em; padding:4.5em 0 1.5em;}
+#posts {margin:0 1.5em 0 15em; padding:3em 0 1.5em;}
 #posts .post {list-style:none; margin:-1px 0 0; padding-bottom:2.875em; max-width:42em;
               clear:both; border-top:1px solid #c8d85c;}
 #posts .post.index {padding-bottom: 1em;}
@@ -53,6 +53,9 @@ a:hover, a:active {color:#ffa600; background:#6f1b1b;}
 #pagination a {font-style:italic;}
 #pagination .page {text-align:center; font:0.8em/1.875 Baskerville, 'Times New Roman', Times, serif;
                    margin-bottom:1.875em; text-transform:uppercase;}
+
+#license {font-size: 0.8em;}
+
 .avatars {clear:both; color:#c8d85c;}
 .avatars span {float:left; display:inline; width:108px; line-height:36px;}
 .avatars a {float:left; display:inline; padding:0 6px 6px 0;}

@@ -8,7 +8,7 @@ layout: default
   <div class="meta">
     <h2>
       <a title="Link to this post" id="{{ id }}"
-        href="{{ page.url }}">{{ page.date | date_to_string }}</a><br/>
+        href="{{ page.url }}">{% if page.date %}{{ page.date | date_to_string }}{% endif %}</a><br/>
         {{ page.categories }}
     </h2>
   </div>
